@@ -18,6 +18,15 @@
 		77C254D21787268B0073EC41 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77C254D11787268B0073EC41 /* Default@2x.png */; };
 		77C254D41787268B0073EC41 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77C254D31787268B0073EC41 /* Default-568h@2x.png */; };
 		77C254D71787268B0073EC41 /* Client_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77C254D51787268B0073EC41 /* Client_Tracker.xcdatamodeld */; };
+		77C254DE178726DD0073EC41 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C254DD178726DD0073EC41 /* Storyboard.storyboard */; };
+		77C254E417872CA30073EC41 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C254E317872CA30073EC41 /* Client.m */; };
+		77C254E717872CCB0073EC41 /* Payment.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C254E617872CCB0073EC41 /* Payment.m */; };
+		77C254EC17872E300073EC41 /* ClientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C254EB17872E300073EC41 /* ClientsViewController.m */; };
+		77C254EF17872E630073EC41 /* ClientInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C254EE17872E630073EC41 /* ClientInfoViewController.m */; };
+		77C254F217872E7C0073EC41 /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C254F117872E7C0073EC41 /* PaymentViewController.m */; };
+		77C255241787381B0073EC41 /* MainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C255231787381B0073EC41 /* MainNavigationViewController.m */; };
+		77C2552717873B190073EC41 /* AddClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C2552617873B190073EC41 /* AddClientViewController.m */; };
+		77C2552A17876E550073EC41 /* ClientCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C2552917876E550073EC41 /* ClientCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +45,23 @@
 		77C254D11787268B0073EC41 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		77C254D31787268B0073EC41 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		77C254D61787268B0073EC41 /* Client_Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Client_Tracker.xcdatamodel; sourceTree = "<group>"; };
+		77C254DD178726DD0073EC41 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		77C254E217872CA30073EC41 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		77C254E317872CA30073EC41 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		77C254E517872CCB0073EC41 /* Payment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Payment.h; sourceTree = "<group>"; };
+		77C254E617872CCB0073EC41 /* Payment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Payment.m; sourceTree = "<group>"; };
+		77C254EA17872E300073EC41 /* ClientsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientsViewController.h; sourceTree = "<group>"; };
+		77C254EB17872E300073EC41 /* ClientsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientsViewController.m; sourceTree = "<group>"; };
+		77C254ED17872E630073EC41 /* ClientInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientInfoViewController.h; sourceTree = "<group>"; };
+		77C254EE17872E630073EC41 /* ClientInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientInfoViewController.m; sourceTree = "<group>"; };
+		77C254F017872E7C0073EC41 /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
+		77C254F117872E7C0073EC41 /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
+		77C255221787381A0073EC41 /* MainNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationViewController.h; sourceTree = "<group>"; };
+		77C255231787381B0073EC41 /* MainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationViewController.m; sourceTree = "<group>"; };
+		77C2552517873B180073EC41 /* AddClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddClientViewController.h; sourceTree = "<group>"; };
+		77C2552617873B190073EC41 /* AddClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddClientViewController.m; sourceTree = "<group>"; };
+		77C2552817876E550073EC41 /* ClientCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientCell.h; sourceTree = "<group>"; };
+		77C2552917876E550073EC41 /* ClientCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +110,15 @@
 		77C254C31787268B0073EC41 /* Client Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				77C254E917872D9E0073EC41 /* Controllers */,
+				77C254E817872CE50073EC41 /* Models */,
 				77C254CC1787268B0073EC41 /* AppDelegate.h */,
 				77C254CD1787268B0073EC41 /* AppDelegate.m */,
 				77C254D51787268B0073EC41 /* Client_Tracker.xcdatamodeld */,
+				77C254DD178726DD0073EC41 /* Storyboard.storyboard */,
 				77C254C41787268B0073EC41 /* Supporting Files */,
+				77C2552817876E550073EC41 /* ClientCell.h */,
+				77C2552917876E550073EC41 /* ClientCell.m */,
 			);
 			path = "Client Tracker";
 			sourceTree = "<group>";
@@ -104,6 +135,34 @@
 				77C254D31787268B0073EC41 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77C254E817872CE50073EC41 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				77C254E217872CA30073EC41 /* Client.h */,
+				77C254E317872CA30073EC41 /* Client.m */,
+				77C254E517872CCB0073EC41 /* Payment.h */,
+				77C254E617872CCB0073EC41 /* Payment.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		77C254E917872D9E0073EC41 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				77C254EA17872E300073EC41 /* ClientsViewController.h */,
+				77C254EB17872E300073EC41 /* ClientsViewController.m */,
+				77C254ED17872E630073EC41 /* ClientInfoViewController.h */,
+				77C254EE17872E630073EC41 /* ClientInfoViewController.m */,
+				77C255221787381A0073EC41 /* MainNavigationViewController.h */,
+				77C255231787381B0073EC41 /* MainNavigationViewController.m */,
+				77C254F017872E7C0073EC41 /* PaymentViewController.h */,
+				77C254F117872E7C0073EC41 /* PaymentViewController.m */,
+				77C2552517873B180073EC41 /* AddClientViewController.h */,
+				77C2552617873B190073EC41 /* AddClientViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +220,7 @@
 				77C254D01787268B0073EC41 /* Default.png in Resources */,
 				77C254D21787268B0073EC41 /* Default@2x.png in Resources */,
 				77C254D41787268B0073EC41 /* Default-568h@2x.png in Resources */,
+				77C254DE178726DD0073EC41 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +234,14 @@
 				77C254CA1787268B0073EC41 /* main.m in Sources */,
 				77C254CE1787268B0073EC41 /* AppDelegate.m in Sources */,
 				77C254D71787268B0073EC41 /* Client_Tracker.xcdatamodeld in Sources */,
+				77C254E417872CA30073EC41 /* Client.m in Sources */,
+				77C254E717872CCB0073EC41 /* Payment.m in Sources */,
+				77C254EC17872E300073EC41 /* ClientsViewController.m in Sources */,
+				77C254EF17872E630073EC41 /* ClientInfoViewController.m in Sources */,
+				77C254F217872E7C0073EC41 /* PaymentViewController.m in Sources */,
+				77C255241787381B0073EC41 /* MainNavigationViewController.m in Sources */,
+				77C2552717873B190073EC41 /* AddClientViewController.m in Sources */,
+				77C2552A17876E550073EC41 /* ClientCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
